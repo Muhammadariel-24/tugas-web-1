@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Profil Warung Kopi Favoritku</title>
+</head>
+<body>
+    <!-- Judul Halaman -->
+    <h1>Warung Kopi Nyaman di Sudut Kota</h1>
+
+    <!-- Gambar Warung Kopi -->
+<img src="warungkopi.jpg" alt="">
+    <!-- Paragraf Deskripsi -->
+    <p>
+        Warung kopi ini memiliki suasana yang hangat dan tenang, cocok untuk bersantai atau bekerja. 
+        Aroma kopi yang harum dan alunan musik jazz menjadikan tempat ini favoritku untuk melepas penat.
+    </p>
+
+    <!-- Daftar Menu Favorit -->
+    <h2>Menu Favorit</h2>
+    <ul>
+        <li>Espresso</li>
+        <li>Cappuccino</li>
+        <li>Latte</li>
+        <li>Kue Brownies</li>
+        <li>Roti Bakar Cokelat Keju</li>
+    </ul>
+
+    <!-- Tabel Harga -->
+    <h2>Daftar Harga</h2>
+    <table border="1" cellpadding="5">
+        <tr>
+            <th>Menu</th>
+            <th>Harga</th>
+            <th>Kategori</th>
+        </tr>
+        <tr>
+            <td>Espresso</td>
+            <td>Rp 20.000</td>
+            <td>Minuman</td>
+        </tr>
+        <tr>
+            <td>Latte</td>
+            <td>Rp 25.000</td>
+            <td>Minuman</td>
+        </tr>
+        <tr>
+            <td>Brownies</td>
+            <td>Rp 15.000</td>
+            <td>Makanan Ringan</td>
+        </tr>
+    </table>
+
+    <!-- Formulir Pemesanan -->
+    <h2>Formulir Pemesanan</h2>
+    <form>
+        <label for="nama">Nama Pelanggan:</label><br>
+        <input type="text" id="nama" name="nama"><br><br>
+
+        <label for="menu">Pilih Menu:</label><br>
+        <select id="menu" name="menu">
+            <option value="espresso">Espresso</option>
+            <option value="latte">Latte</option>
+            <option value="brownies">Brownies</option>
+        </select><br><br>
+
+        <label for="catatan">Catatan Tambahan:</label><br>
+        <textarea id="catatan" name="catatan" rows="4" cols="30"></textarea><br><br>
+
+        <button type="submit">Pesan Sekarang</button>
+    </form>
+</body>
+</html>
